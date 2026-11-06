@@ -1,0 +1,2 @@
+sv work ../../rtl/alarm_car.sv
+sv work alarm_car_test.sv

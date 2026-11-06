@@ -1,0 +1,2 @@
+sv work ../../rtl/mux4_4.sv
+sv work mux4_4_test.sv
