@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.24.09.d
+-RUNMODE
+-NOWARN
+DSEMEL
+rtl/lab2_decoder.sv
+-CDSLIB
+./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.24.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-MIXEDLANG
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.24.09.d/xllibs
+-ALLOWUNBOUND
+-disable_covergroup_type

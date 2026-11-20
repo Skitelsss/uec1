@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-NO_DESIGN_FACTS
+-RULEFILE
+/cad/env/hal_mtm_rtl_rules.def
+-NOWARN
+DSEMEL
+-PARTIALDESIGN
+-cdslib
+./xcelium.d/run.lnx8664.24.09.d/cds.lib
+-hdlvar
+./xcelium.d/run.lnx8664.24.09.d/hdl.var
+worklib.lab2_decoder:sv
+-logfile
+xrun.log
+-cflag
+-I/eda/cadence/2024-25/RHELx86/XCELIUM_24.09.005/tools/include
+-cflag
+-I/eda/cadence/2024-25/RHELx86/XCELIUM_24.09.005/tools/inca/include
