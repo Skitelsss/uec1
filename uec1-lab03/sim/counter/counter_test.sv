@@ -48,8 +48,8 @@ task test_enabled_counter();
 
     reset();
 
-    for (int i = 0; i < 10; ++i) begin
-        assert (value == i) else begin
+    for (int i = 0; i < 20; ++i) begin
+        assert (value == i[3:0]) else begin
             $error("value: exp: %1d, rcv: %1d", i, value);
         end
         @(negedge clk);
