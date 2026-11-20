@@ -3,3 +3,6 @@ build/
 *.pb
 .Xil/
 xsim.dir/
+
+xcelium.d/
+hal.log
