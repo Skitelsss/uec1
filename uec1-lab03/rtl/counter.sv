@@ -29,14 +29,15 @@ end
 
 always_comb begin
     value_nxt = value;
+    overflow  = 1'b0;
 
     if (enabled) begin
-        if (value_nxt < MAX_COUNT) begin
-            value_nxt = value + 1;
-            overflow = 0;
+        if (value < WIDTH'(MAX_COUNT)) begin
+            value_nxt = value + 1'b1;
+            overflow  = 1'b0;
         end else begin
             value_nxt = '0;
-            overflow = 1;
+            overflow  = 1'b1;
         end
     end
 end
