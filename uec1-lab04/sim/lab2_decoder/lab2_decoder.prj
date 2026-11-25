@@ -1,0 +1,1 @@
+sv work ../../rtl/lab2_decoder.sv lab2_decoder_test.sv

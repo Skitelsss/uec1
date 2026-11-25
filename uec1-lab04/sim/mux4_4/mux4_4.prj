@@ -1,0 +1,1 @@
+sv work ../../rtl/mux4_4.sv mux4_4_test.sv
